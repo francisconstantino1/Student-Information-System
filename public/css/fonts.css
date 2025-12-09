@@ -1,0 +1,26 @@
+/* ============================================
+   Global Font Styles
+   Consistent typography across all pages
+   ============================================ */
+
+html,
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure all text elements inherit the font */
+* {
+    font-family: inherit;
+}
+
+/* Specific elements that might override */
+h1, h2, h3, h4, h5, h6,
+p, span, div, a, button,
+input, textarea, select,
+label, table, th, td,
+li, ul, ol {
+    font-family: inherit;
+}
+
